@@ -1,0 +1,44 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+form {
+    margin-top: 40px;
+}
+
+button, select, .btn {
+    cursor: pointer;
+}
+
+.awesome-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    border: 1px #000;
+}
+
+.btn {
+    border:outset 1px #bbbbbb; 
+    padding:2px;
+    background: #ddd;
+    text-align: center;
+}
+
+.clear-save-buttons {
+    display: flex;
+}
+
+.clear-button {
+    padding-right: 30px;
+}
